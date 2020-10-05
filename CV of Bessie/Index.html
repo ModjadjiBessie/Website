@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href = "shadow=.css">
+<title>CV</title>
+<style>
+
+.h1{color:blue;
+font-family:Arial;text-align:center;}
+
+header a{text-decoration:none;
+float: right;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;}
+ a:hover{color:white; background-color:green;}
+.info{color:orange;text-align:center; 
+padding-top:150px;}
+#image{
+position: relative;
+-moz-box-shadow: 1px 2px 4px rgba(0 , 0 , 0 , 0 .5);
+-webkit-box-shadow: 1px 2px 4px rgba(0 , 0 , 0 , 0 .5);
+box-shadow:  1px 2px 4px rgba(0 , 0 , 0 , 0 .5);
+padding: 10px;
+background: grey;}
+
+#image img{width:100%;
+border: 1px solid #8a4419;
+border-style: inset;
+}
+
+#image::after{
+content: '';
+position: absolute;
+z-index: -1;
+/* hide shadow behide image*/
+-webkit-box-shadow: 0 15px 20px rgba(0 , 0 , 0 , 0 . 3);
+width:7%;
+left:15%;
+
+/* one half remaining 30% */
+
+height: 10px;
+bottom: 0;
+
+}
+footer { 
+ bottom:0;
+ width:100%;
+  text-color:orange;
+  position:fixed;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  
+}
+
+.p{font-style:italic; font-size:24px;}
+h1{font-style: oblique;
+font-size: 25px;}
+img{border-radius:50%;align:left;}
+body{background-color:black;}
+</style>
+</head>
+<body>
+<div class="h1">
+<header>
+<h1>Curriculum Vitae of Modjadji Bessie Maphalle</h1>
+
+    <a href="contact.html">contact</a>
+
+  <a href="modules.html">Modules</a>
+<a href="profile.html">Profile</a>
+ <a href="Index.html">Introduction</a>
+  
+</header>
+</div>
+
+<div class="info">
+<hr style="color:red;">
+<p class="p">Bessie is an IT graduate student who studied her diploma at Richfield Graduate <br>
+Institute of Technology she successfully completed her diploma<br>
+ in Information Technology in 2017.</p>
+
+</div>
+
+
+<!-- <div id="image">
+
+<img src = "IMG-20190328-WA0029.jpg" alt="me" width="250px">
+
+</div> -->
+
+		<footer>
+
+				<p>hosted by Modjadji Bessie Copyright &copy;2019</p>
+<p>Contact information: <a href="modjadjibessie@gmail.com">modjadjibessie@gmail.com</a>.</p>
+            </footer>
+</body>
+</html>
